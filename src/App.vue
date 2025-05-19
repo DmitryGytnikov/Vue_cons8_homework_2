@@ -47,8 +47,8 @@ const addMessage = () => {
 <template>
   <div>
     <div class="container">
-      <p>Переменная newMessage {{ newMessage }}</p>
-      <p>Переменная messages {{ messages }}</p>
+      <!-- <p>Переменная newMessage {{ newMessage }}</p> -->
+      <!-- <p>Переменная messages {{ messages }}</p> -->
 
       <div class="area">
         <div class="area__output">
