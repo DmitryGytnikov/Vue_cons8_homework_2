@@ -31,13 +31,17 @@ const addMessage = () => {
 
   for (let i = 0; i < messages.value.length; i++) {
     messages.value[i].id = i
-    console.log(i)
+    // console.log(i)
   }
 
   newMessage.value = ''
 }
 
-// setHiddenness
+// const setHiddenness = (id) => {
+//   messages.value.find((message) => message.id === id).isHidden = !messages.value.find(
+//     (message) => message.id === id,
+//   ).isHidden
+// }
 </script>
 
 <template>
