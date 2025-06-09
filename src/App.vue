@@ -64,11 +64,6 @@ setInterval(() => currentMessageIndex.value++, messageTimer)
 <template>
   <div>
     <div class="container">
-      <p>Переменная messages {{ messages }}</p>
-      <p>Переменная currentMessageIndex {{ currentMessageIndex }}</p>
-      <p>Переменная currentMessage {{ currentMessage }}</p>
-      <p>Переменная allowedMessages {{ allowedMessages }}</p>
-
       <div class="area">
         <app-output
           :message="currentMessage"
